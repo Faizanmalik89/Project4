@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <script type="text/javascript"> var infolinks_pid = 3434325; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+<body>
+    <header>
+        <h1>Login / Sign Up</h1>
+    </header>
+
+    <main>
+        <section class="login-container">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label>Email:</label>
+                <input type="email" id="loginEmail" required>
+                
+                <label>Password:</label>
+                <input type="password" id="loginPassword" required>
+                
+                <button type="submit">Login</button>
+            </form>
+
+            <h2>Forgot Password?</h2>
+            <form id="resetForm">
+                <label>Enter your email:</label>
+                <input type="email" id="resetEmail" required>
+                <button type="button" onclick="sendOTP()">Send OTP</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
